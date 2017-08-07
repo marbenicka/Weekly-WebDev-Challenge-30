@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+body{
+	background-color: #efeee9 !important;
+	position:relative
+	font-family: 'Roboto', sans-serfi;
+	color: #333333;
+}
+
+/*for layout*/
+.nopadding{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+}
+.full{
+ width: 100%;
+}
+.floatleft{
+	float:left;
+}
+.center{
+	align-content:center;
+}
+header{
+	position: relative;
+	top: -50px;
+
+}
+header>div>img{
+	position:relative;
+}
+.spanonimg{
+	position: absolute;
+	top: 82%;
+	left: 51%;
+	max-width: 33%;
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+	font-weight: 300 !important;
+	z-index: 2;
+}
+
+.hamburger{
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: white;
+	z-index: 2000;
+}
+.glyphicon-menu-hamburger{
+	font-size: 5rem;
+}
+.well{
+	position: fixed !important;
+	top: 70px;
+	left: 0px;
+	z-index: 2000;
+	background-color: white !important;
+	color: #333333 !important;
+}
+.well a{
+	color: #333333 !important;
+}
+.mob{
+	font-size: 1.5rem;
+	padding: 20px 0;
+}
+/*pixel perfect*/
+.navbar-fixed-top{
+	background-color: rgba(255,255,255,0.8);
+	padding: 9px 0px 40px 0px;
+}
+
+.navbar-nav a{
+ 	color: #333333;
+	margin: 0 10px;
+	box-sizing: border-box;
+	transition: transform 200ms}
+.navbar-nav small{
+	font-size: 0.65em;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+.navbar-brand{
+	font-size: 2.6rem !important;
+	letter-spacing: 6px;
+	padding: 20px 25px 40px 25px !important;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-brand{
+	font-size: 2.6rem !important;
+	letter-spacing: 6px;
+	padding: 20px 25px 40px 25px !important;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.uparea{
+	margin-top: 8%
+}
+
+.white{
+	background-color: white;
+}
+
+#portfolio h2{
+	text-transform: uppercase;
+	padding: 70px 0 70px 0;
+	font-weight: 100 !important;
+	font-family: 'Roboto Slab', serif;
+	font-size: 4rem;
+
+}
+#portfolio p{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300 !important;
+	padding-bottom: 50px;
+}
+
+#portfolio button{
+	border-radius: 0px;
+	background-color: inherit;
+	border: 2px solid #333333;
+	font-size: 1.7rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 15px 35px 15px 35px;
+	margin-bottom: 110px;
+	transition: all ease 0.8s;
+}
+.photos{
+	margin-top: 11%;
+}
+.forimg{
+	background-color: #0f0f0f;
+	position: relative;
+	overflow: hidden;
+}
+.forimg img{
+	width: 100%;
+	height: 100%;
+	transition: all ease 0.5s;
+}
+.forimg span{
+	position: absolute;
+	z-index: 100;
+	left: 40%;
+	top: 50%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	color: white;
+	opacity: 0;
+	transition: all ease 0.8s;
+}
+
+.item{
+	margin: 17.5% 17%;
+	max-width: 80%;
+	max-height: 80%;
+}
+#about{
+	background-color: white;
+}
+#about>div>div{
+	margin-top: 13%;
+	padding-left: 40px;
+	padding-right: 25px;
+	color: #333333;
+}
+h5{
+	font-family: 'Roboto', sans serif !important;
+	letter-spacing: 5px;
+	font-weight: 300 !important;
+	margin-top: 50px !important;
+}
+#about>div>div>h5:fisrt-child{
+	margin-top: 0px !important;
+}
+#about>div>div>p{
+	font-family: 'Roboto', sans serif !important;
+	line-height: 200%;
+	font-size: 1.4rem;
+	font-weight: 300 !important;
+}
+
+/*colums*/
+.onecolumn{
+	padding: 40px 60px;
+	background-color: white;
+	transition: all ease 0.4s;
+}
+.onecolumn h4{
+	font-weight: bold;
+	padding: 10px;
+}
+.onecolumn p{
+	padding-bottom: 30px;
+}
+
+.onecolumn a{
+	color: #71beff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/*footer*/
+.black{
+	background-color: #353535;
+	color: white;
+}
+#contact{
+	margin-top: 9%;
+	font-size: 1.5rem;
+}
+#contact span{
+	display: block;
+	margin-top: 4%;
+	font-weight: bold;
+}
+#contact a{
+	text-decoration: none;
+	color: white;
+}
+.footer__bottom i{
+	margin: 20px 10px 20px 5px;
+	font-size: 3rem;
+	transition: all ease 0.4s;
+
+}
+.copy{
+	margin-top: 20px;
+}
+
+.copy span{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+/*effects*/
+.navbar-nav a:hover{
+	transform: scale(1.2);
+}
+.navbar-nav a:hover small{
+	border-bottom: 1px dotted #333333;
+}
+#portfolio button:hover{
+	box-shadow: inset 300px 0 0 0 #333333;
+	color: white;
+}
+.forimg:hover img{
+	opacity: 0.5;
+	transform: rotate(3deg)scale(1.1);
+}
+.forimg:hover span{
+	opacity: 1;
+}
+.onecolumn:hover{
+	transform: scale(1.2);
+}
+.fa-twitter:hover{
+	color: #55acee;
+}
+.fa-facebook-official:hover{
+	color: #3b5999;
+}
+.fa-instagram:hover{
+	color: #e4405f;
+}
+.fa-youtube-play:hover{
+	color: #cd201f;
+}
+
+
+/*animation*/
