@@ -240,7 +240,10 @@ h5{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
-
+.mapimg{
+	width: 100%;
+	margin: 10px;
+}
 /*effects*/
 .navbar-nav a:hover{
 	transform: scale(1.2);
